@@ -23,12 +23,14 @@
     <parent>
         <groupId>cn.sliew</groupId>
         <artifactId>sakura</artifactId>
-        <version>1.0.2-SNAPSHOT</version>
+        <version>1.0.4-SNAPSHOT</version>
+        <relativePath>../pom.xml</relativePath>
     </parent>
     <artifactId>sakura-flink</artifactId>
     <packaging>pom</packaging>
 
     <modules>
         <module>sakura-sql-template</module>
+        <module>sakura-flink-sql-gateway</module>
     </modules>
 </project>
